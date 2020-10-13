@@ -4,13 +4,17 @@ Allows multiple users to connect and send chat messages and play tic-tac-toe rem
 # How To Play
 
 Server: 
+
 gcc ticsvr.c -o ticsvr
+
 ./ticsvr -p portnumber (e.g. ./ticsvr -p 5656)
 
 Client 1: 
+
 nc hostname portnumber (e.g. nc localhost 5656)
 
 Client 2: 
+
 nc hostname portnumber (e.g. nc localhost 5656)
 
 etc.
